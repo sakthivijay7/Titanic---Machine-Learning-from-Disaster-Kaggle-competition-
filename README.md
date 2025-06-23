@@ -19,7 +19,7 @@ Encoding:
 Get dummies to encoding the categorical values.
 
 Model:
-Traning a model with LogisticRegression,DecisionTreeRegressor,RandomForestRegressor.
+Training a model with LogisticRegression,DecisionTreeRegressor,RandomForestRegressor.
 
 Submission:
 submitted the DataFrame of test data :PassengerId  and predicted: "Survived" to csv format.
