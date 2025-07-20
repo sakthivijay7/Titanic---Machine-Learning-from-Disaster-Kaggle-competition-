@@ -1,31 +1,32 @@
-# Titanic-Machine-Learning-from-Disaster-Kaggle-competition-
-Kaggle competition page: https://www.kaggle.com/competitions/titanic
-Data collection:
-Data collect from kaggle competition page train and test data.
+# Titanic-Machine-Learning-from-Disaster-Kaggle-competition
+#### Date:June21 -2025
+Kaggle competition page: (https://www.kaggle.com/competitions/titanic)
+- **Data collection:**
+Data collected from kaggle competition page train and test data.
 
-Data handle:
+- **Data handle:**
 pandas to read the files and check null values.
 
-Null values handle:
+- **Null values handle:**
 Fill numerical values fill with median .
 
-Features:
+- **Features:**
 selected columns -'PassengerId', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare'.
 
-Target:
+- **Target:**
 "Survived"
 
-Encoding:
+- **Encoding:**
 Get dummies to encoding the categorical values.
 
-Model:
+- **Model:**
 Training a model with LogisticRegression,DecisionTreeRegressor,RandomForestRegressor.
 
-Submission:
+- **Submission:**
 submitted the DataFrame of test data :PassengerId  and predicted: "Survived" to csv format.
 
-Result:
-Got public score 0.76555/1.000
+- **Result:**
+Got `public score 0.76555/1.000`
 
 
 
